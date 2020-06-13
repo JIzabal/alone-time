@@ -4,6 +4,7 @@ import sys
 sys.path.append('../')
 import MyProjectFolder.my_module.schedule as sched
 
+
 # Check for the right number of arguments
 if len(sys.argv) != 2:
     sys.exit("Please give a valid number of arguments")

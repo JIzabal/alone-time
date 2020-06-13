@@ -1,6 +1,5 @@
 """A collection of functions for doing my project."""
 
-
 def read_file(file):
     """Reads a file containing the schedules of two people.
 

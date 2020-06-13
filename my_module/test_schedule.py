@@ -1,6 +1,5 @@
 """Test for my functions."""
 
-
 from schedule import read_file, get_schedules, find_free_time
 
 
