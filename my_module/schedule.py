@@ -47,6 +47,8 @@ def get_schedules(schedule):
     for time in schedule:
 
         index += 1
+
+        # Used to check when to start getting the second schedule
         if time == '#':
             break
 
@@ -73,7 +75,12 @@ def find_free_time(schedule_1, schedule_2):
     Returns
     -------
     schedule: list
-        A list containing the schedules read from the file
+        A list containing the schedules read from the file.
+
+    Notes
+    -----
+    is_free: boolean
+        A flag to keep track of whether time_1 is a free time
     """
 
     for time_2 in schedule_2:
